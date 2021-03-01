@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Qalyn Mal | Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="overlay">
+      <a href="#btn" class="header-title"><h1 class="header-title">Qalyn Mal</h1></a>
+    </div>
+  </header>
+  <form>
+    <label>First name</label>
+    <input id="firstname" type="text">
+    <hr>
+  <section class="content">
+      <h3 class="title">Education</h3>
+      <fieldset>
+      <select id="education">
+      	<option value="undergrad">Undergraduate degree</option>
+      	<option value="college">College degree</option>
+      	<option value="highschool">High school degree</option>
+      	<option value="middleschool">Middle school degree</option>
+      </select>
+      </fieldset>
+      <h3 class="title">Family net worth</h3>
+      <fieldset>
+      <select id="family">
+        <option value="veryrich">More than 100,000$</option>
+        <option value="rich">Between 50,000$ and 100,000$</option>
+        <option value="normal">Less than 50,000$</option>
+      </select>
+      </fieldset>
+      <h3 class="title">Skills</h3>
+      <fieldset>
+      <form class="text">
+       <p><input type="checkbox" id="dombra">Playing on dombra<Br>
+       <input type="checkbox" id="cook">Good cook<Br>
+       <input type="checkbox" id="character">Easygoing character<Br> 
+       <input type="checkbox" id="sings">Sings well</p>
+      </form>
+      </fieldset>
+      <h3 class="title">Age</h3>
+      <fieldset>
+       <form class="text">
+       <p><input type="radio" id="young">Between 18-23<Br>
+       <input type="radio" id="normal">Between 24-27<Br>
+       <input type="radio" id="old">28+<Br> 
+      </form>
+      </fieldset>
+      <h3 class="title">Reputation</h3>
+      <fieldset>
+      <form class="text">
+       <p><input type="checkbox" id="parentgossip">Gossips about his/her parent's attitude<Br>
+       <input type="checkbox" id="charactergossip">Gossips about his/her character<Br> 
+       <input type="checkbox" id="persongossip">General gossips around his/her person</p>
+       <label>Love letter</label><br>
+                    <textarea id="love_letter"></textarea>
+      </form>
+      </fieldset>
+  </section>
+  <div class="btn" id="btn">
+    <h1 id="res">Result</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
